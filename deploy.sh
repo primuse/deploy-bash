@@ -92,7 +92,7 @@ EOF
 # installs packages for the setup and configuration of SSL certificates
 function certbot {
   echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< INSTALLING CERTBOT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-  sudo apt-get install software-properties-common
+  sudo apt-get install -y software-properties-common
   sudo add-apt-repository ppa:certbot/certbot
   sudo apt-get update
   sudo apt-get install -y python-certbot-nginx
