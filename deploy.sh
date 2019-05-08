@@ -93,7 +93,7 @@ EOF
 function certbot {
   echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< INSTALLING CERTBOT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
   sudo apt-get install -y software-properties-common
-  sudo add-apt-repository ppa:certbot/certbot
+  sudo add-apt-repository ppa:certbot/certbot -y
   sudo apt-get update
   sudo apt-get install -y python-certbot-nginx
 }
