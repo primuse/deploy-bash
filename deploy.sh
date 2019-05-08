@@ -110,3 +110,5 @@ function main {
   nginxConfig
   certbot
 }
+
+main
